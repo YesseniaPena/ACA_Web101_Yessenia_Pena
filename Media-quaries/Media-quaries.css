@@ -1,0 +1,61 @@
+
+
+
+
+
+
+.border/red {
+  border: 1px solid red;
+}
+.border-blue {
+  border: 1px solid blue;
+}
+.border-green {
+  border: 1px solid green;
+}
+body {
+  height: 100vh;
+}
+nav {
+  display: block;
+  height: 90px;
+  width: 100%;
+  background-color:rgb(85, 85, 79)
+  padding: 10px 15px;
+}
+nav .logo {
+  display: inline-block; 
+  height: 70px
+  width: 70px
+  text-align: center; 
+} 
+nav .logo i {
+  font-size: 50px
+  margin: 15% 0;
+  font-size: 50px
+}
+nav ul li {
+  height: 100px
+  float: right; 
+}
+nav ul li {
+  display: inline-block;
+}
+@media (min-width: 575px) {
+  nav {
+    height: 500px;
+  }
+  nav.logo {
+    height: 100%;
+    width: 50%;
+  }
+  nav.logo : {
+    font-size: 150px;
+  }
+  nav ul {
+    width: 50%
+  }
+ nav ul li {
+    display: block; 
+  }
+}
