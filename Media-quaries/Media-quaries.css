@@ -4,7 +4,7 @@
 
 
 
-.border/red {
+.border-red {
   border: 1px solid red;
 }
 .border-blue {
@@ -20,22 +20,22 @@ nav {
   display: block;
   height: 90px;
   width: 100%;
-  background-color:rgb(85, 85, 79)
+  background-color:rgb(85, 85, 79);
   padding: 10px 15px;
 }
 nav .logo {
   display: inline-block; 
-  height: 70px
-  width: 70px
+  height: 70px;
+  width: 70px;
   text-align: center; 
 } 
 nav .logo i {
-  font-size: 50px
+  font-size: 50px;
   margin: 15% 0;
-  font-size: 50px
+  font-size: 50px;
 }
 nav ul li {
-  height: 100px
+  height: 100px;
   float: right; 
 }
 nav ul li {
@@ -49,11 +49,11 @@ nav ul li {
     height: 100%;
     width: 50%;
   }
-  nav.logo : {
+  /* nav.logo : {
     font-size: 150px;
-  }
+  } */
   nav ul {
-    width: 50%
+    width: 50%;
   }
  nav ul li {
     display: block; 
