@@ -1,0 +1,27 @@
+.header {
+margin: 10%;
+
+}
+p {
+  font-size: 18px;
+}
+#name {
+  margin: 20px;
+  
+}
+.img-top {
+  display: flex;
+  flex-direction: row;
+}
+.main {
+  margin-left: 100px;
+}
+
+/* phone settings */
+@media (max-width: 576px)
+ {
+  .img-top {
+    flex-direction: column;
+
+  }
+}

@@ -1,0 +1,20 @@
+.height {
+  height:825px;
+  Width: 750px;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: lightgray;
+  margin-top: 20px;
+}
+button {
+  background-color: darkgray;
+  font-weight: bold;
+  border-radius: 0;
+  margin-top: 5px;
+}
+.box {
+  height:100px;
+}

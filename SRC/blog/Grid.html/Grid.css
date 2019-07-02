@@ -1,0 +1,90 @@
+.masterGrid{
+  display: grid;
+  grid-template-areas:
+  "top top top icon"
+  "main main main right"
+  "main main main right"
+  "main main main right"
+  "footer footer footer footer";
+}
+.top{
+  grid-area: top;
+  background-color: blue;
+  flex-direction: column;
+  font-size: 45px;
+}
+.topleft img{
+  height: 275px;
+}
+.middle img{
+  height:275px;
+}
+.topright img{
+  height: 275px;
+}
+
+.rightIcon{
+  grid-area: icon;
+  background-color: rgb(199, 18, 102);
+  height: 200px;
+  font-size: 20px;
+}
+.rightIcon img {
+  height: 300px;
+ 
+}
+.main{
+  grid-area: main;
+  background-color: white;
+  height: 600px;
+  display: grid;
+  grid-template-areas: 
+  "topleft middle topright"
+  "bottom bottom bottom";
+}
+.mainbottom img{
+  height: 200px;
+  width: 275px;
+}
+.topleft{
+  grid-area: topleft;
+}
+.middle{
+  grid-area: middle;
+}
+.topright{
+  grid-area: topright;
+}
+.mainbottom {
+  grid-area: bottom;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.rightSide{
+  grid-area: right;
+  background-color: green;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.rightside img{
+  height: 175px;
+}
+.tompright img{
+  height: 175px
+}
+
+.footer{
+  grid-area: footer;
+  background-color: grey;
+  height: 200px;
+  flex-direction: column;
+}
+.footer img {
+  width: 250px;
+  height: 200px;
+}

@@ -1,0 +1,27 @@
+body {
+  background-color: lightgrey;
+  display: grid;
+  grid-template-areas: 
+    "left right"
+    "main main"
+}
+.colume{
+  color: rgb(155, 143, 143);
+}   
+#Name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px
+}
+#Name h2 {
+  margin-bottom: 0px;
+}
+#Name p {
+  margin-top: 0px; 
+}
+#right {
+  display: block;
+}
+#main {
+margin-left: 14px
+}
